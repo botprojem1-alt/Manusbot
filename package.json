@@ -1,0 +1,52 @@
+{
+  "name": "ai-studio-applet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "start": "tsx server.ts",
+    "lint": "eslint .",
+    "clean": "rm -rf dist auth_info_baileys"
+  },
+  "dependencies": {
+    "@google/genai": "^1.17.0",
+    "@hookform/resolvers": "^5.2.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "archiver": "^7.0.1",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.6",
+    "esbuild": "^0.28.0",
+    "express": "^5.2.1",
+    "lucide-react": "^0.553.0",
+    "motion": "^12.23.24",
+    "pino": "^10.3.1",
+    "postcss": "^8.5.6",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "tailwind-merge": "^3.3.1",
+    "tsx": "^4.21.0",
+    "vite": "^8.0.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "4.1.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "9.39.1",
+    "firebase-tools": "^15.0.0",
+    "globals": "^17.4.0",
+    "tailwindcss": "4.1.11",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "^8.58.1"
+  }
+}
